@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>GANJIL</title>
+	<meta name="viewport" content="width-device-width, initial-scale=1">
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+	<script src="jquery.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<nav class="container navbar fixed-top navbar-expand-lg navbar-light" style="font-family: poppins; width: 976px; height: 80px; background-color: #eee;">
+
+    		<a class="navbar-brand" href="home.html">GANJIL</a>
+ 
+    		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      			<span class="navbar-toggler-icon"></span>
+    		</button>
+ 
+    	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+ 
+      	<ul class="navbar-nav ms-auto">
+       		<li class="nav-item active">
+         		<a class="nav-link" href="file:///D:/ujian/index.html?#Home">Home</a>
+       	 	</li>
+       	 	<li class="nav-item active">
+         		<a class="nav-link" href="#Room">Room</a>
+       	 	</li>
+       	 	<li class="nav-item active">
+          		<a class="nav-link" href="#">Reservation</a>
+        	</li>
+        	<li class="nav-item active">
+          		<a class="nav-link" href="#">Spa</a>
+        	</li>
+        	<li class="nav-item active">
+          		<form class="d-flex">
+        			<input id="search" style="display: none;" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          		<button id="btn" class="btn rounded-circle" type="submit"><i class="bi bi-search"></i></button>
+          	</form>
+        	</li>		
+      	</ul>
+   		</div>
+		</nav>
+
+		<div class="container" style="background-image: url(image/viewsuite.jpg); margin-top: 80px; width: 975px; font-family: poppins;">
+  			<div class="text-center py-5">
+    			<h2 style="color: white;">FULL OCEAN VIEW SUITE</h2>
+  			</div>
+		</div>
+
+		<br/>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<img src="image/viewsuite.jpg" class="rounded" style="width: 450px; margin-left: 70px;">
+				</div>
+				<div class="col">
+					<div class="card" style="width: 41%; margin-left: 15%;">
+						<img src="image/viewsuite2.jpg" style="width: 111px;">
+						
+						<img src="image/viewsuite3.jpg" style="width: 111px">
+						
+						<img src="image/kolam.jpg" style="width: 111px">
+						
+						<img src="image/jembatan.jpg" style="width: 111px">
+					</div>
+				</div>
+				<div class="col">
+					<div class="card" style="width: 18rem; margin-left: -90px; font-family: poppins; background-color: lightblue;">
+						<div class="card-header text-center">Your Reservation</div>
+  							<div class="card-body">
+    							<p style="font-size: small; margin-top: -10px;">Check In</p>
+						 		<input class="form-control form-control-sm" type="text" placeholder="dd/mm/yyyy" aria-label=".form-control-sm example" style="width: 100px; margin-top: -10px;">
+						 		<p style="font-size: small; margin-left: 50%; margin-top: -22%;">Night</p>
+								<select class="form-select form-select-sm" aria-label=".form-select-sm example" style="width: 60px; margin-left: 50%; margin-top: -11px;">
+  								<option value="1">1</option>
+  								<option value="2">2</option>
+  								<option value="3">3</option>
+								</select>
+
+								<br/>
+								<p style="font-size: small; margin-top: -12px;">Check Out</p>
+						 		<input class="form-control form-control-sm" type="text" placeholder="dd/mm/yyyy" aria-label=".form-control-sm example" style="width: 100px; margin-top: -10px;">
+						 		<p style="font-size: small; margin-left: 50%; margin-top: -22%;">Room</p>
+								<select class="form-select form-select-sm" aria-label=".form-select-sm example" style="width: 60px; margin-left: 50%; margin-top: -11px;">
+  								<option value="1">1</option>
+  								<option value="2">2</option>
+  								<option value="3">3</option>
+								</select>
+
+								<br/>
+								<p style="font-size: small;">Room 1</p>
+								<p style="font-size: small; margin-left: 35%; margin-top: -22%;">Adult</p>
+								<select class="form-select form-select-sm" aria-label=".form-select-sm example" style="width: 60px; margin-left: 35%; margin-top: -11px;">
+  								<option value="1">1</option>
+  								<option value="2">2</option>
+  								<option value="3">3</option>
+								</select>
+								<p style="font-size: small; margin-left: 70%; margin-top: -22%;">Children</p>
+								<select class="form-select form-select-sm" aria-label=".form-select-sm example" style="width: 60px; margin-left: 70%; margin-top: -11px;">
+  								<option value="1">1</option>
+  								<option value="2">2</option>
+  								<option value="3">3</option>
+								</select>
+
+								<br/>
+								<button type="button" class="btn btn-dark btn-sm" style="font-size: small; margin-left: 25%;">Check Availability</button>
+  							</div>
+  						</div>					
+					</div>
+				</div>
+			</div>
+
+			<br/>
+			<div class="container">
+				<hr style="width: 87%; margin-left: 70px;">
+				<p style="margin-left: 75px; font-size: 20px; color: grey; font-family: poppins;">Room Detail</p>
+				<p style="margin-left: 75px; color: grey; font-family: poppins;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+
+			<div class="container">
+				<hr style="width: 87%; margin-left: 70px;">
+				<div class="row" style="font-family: poppins;">
+					<div class="col">
+						<br/>
+						<p style="margin-left: 75px; color: grey;">Room Detail</p>
+					</div>
+					<div class="col">
+						<p style="margin-left: 75px; color: grey;">Accomodates : 4</p>
+						<p style="margin-left: 75px; color: grey;">Bathrooms : 1</p>
+						<p style="margin-left: 75px; color: grey;">Bedroom : 1</p>
+						<p style="margin-left: 75px; color: grey;">Beds : 1</p>
+					</div>
+					<div class="col">
+						<p style="margin-left: 75px; color: grey;">Check In : 02.00 PM</p>
+						<p style="margin-left: 75px; color: grey;">Check Out : 12.00 PM</p>
+						<p style="margin-left: 75px; color: grey;">Property Type : Apartment/room</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<hr style="width: 87%; margin-left: 70px;">
+				<div class="row" style="font-family: poppins;">
+					<div class="col">
+						<br/>
+						<p style="margin-left: 75px; color: grey;">Emenities</p>
+					</div>
+					<div class="col">
+						<p style="margin-left: 75px; color: grey;">Wi-Fi : Free</p>
+						<p style="margin-left: 75px; color: grey;">Elevator : No</p>
+						<p style="margin-left: 75px; color: grey;">Hair Dryer : Yes</p>
+						<p style="margin-left: 75px; color: grey;">Air Conditioning : Yes</p>
+					</div>
+					<div class="col">
+						<p style="margin-left: 75px; color: grey;">Parking : Free</p>
+						<p style="margin-left: 75px; color: grey;">Safety Box : Yes</p>
+						<p style="margin-left: 75px; color: grey;">Television : Yes</p>
+					</div>
+				</div>
+			</div>
+
+			  <div class="container">
+        <hr style="width: 87%; margin-left: 70px;">
+        <p style="margin-left: 75px; color: grey;">Photo</p>
+      <div class="row" style="text-align: center;">
+        <div class="col">
+          <img src="https://img1.ayana.com/bin/images_db/rooms/rooms_type_images/Suite%20640x440.jpg" alt="Full Ocean View Suite | AYANA Komodo Resort, Waecicu Beach" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb" data-noaft="1" style="width: 213px; height: 142px; margin: 0px;">
+        </div>
+        <div class="col">
+          <img src="https://pix10.agoda.net/hotelImages/26078915/-1/184391b2285fa299cea66cfe73658028.jpg?ca=21&amp;ce=0&amp;s=1024x768" alt="AYANA Komodo Resort, Waecicu Beach, Labuan Bajo mulai dari Rp 3666045 |  Agoda.com" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb" data-noaft="1" style="width: 213px; height: 142px; margin: 0px;">
+        </div>
+        <div class="col">
+          <img src="https://pix10.agoda.net/hotelImages/26078915/-1/040cc33b9f7fa33845df7c8b576dc1c7.jpg?ca=21&amp;ce=0&amp;s=1024x768" alt="AYANA Komodo Resort, Waecicu Beach, Labuan Bajo mulai dari Rp 3666045 |  Agoda.com" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb" data-noaft="1" style="width: 213px; height: 142px; margin: 0px;">
+        </div>
+        <div class="col">
+          <img src="https://ak-d.tripcdn.com/images/0200a120008xuuvraBE7A_R_550_412_R5_D.jpg" alt="AYANA Komodo Resort, Waecicu Beach - Hotel Bintang 5 di Labuan Bajo" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb" data-noaft="1" style="width: 213px; height: 142px; margin: 0px;">
+        </div>
+      </div>
+      <div class="row py-5" style="text-align: center;">
+        <div class="col">
+          <img src="https://rakyatntt.com/wp-content/uploads/2021/02/Y967667036.jpg" alt="Lingkungan Jadi Perhatian Kementerian PUPR Dalam Pembangunan Labuan Bajo -  Rakyat NTT" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb" data-noaft="1" style="width: 213px; height: 142px; margin: 0px;">
+        </div>
+        <div class="col">
+          <img src="https://cdn-2.tstatic.net/travel/foto/bank/images/ayana-komodo-resort-imgs.jpg" alt="Potret Ayana Komodo, Resor Mewah di Labuan Bajo yang Jadi Favorit Selebriti  - Tribun Travel" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb" data-noaft="1" style="width: 213px; height: 142px; margin: 0px;">
+        </div>
+        <div class="col">
+          <img src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/319680281.jpg?k=b28443b75147afa0539fb4423acb6883291208cad71fa32d5db354eb3b4a3fb4&amp;o=&amp;hp=1" alt="AYANA Komodo Resort, Waecicu Beach, Labuan Bajo – Updated 2022 Prices" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb" data-noaft="1" style="width: 213px; height: 142px; margin: 0px;">
+        </div>
+        <div class="col">
+          <img src="https://www.haloindonesia.co.id/wp-content/uploads/2020/03/AKOMODASI_NTT_AYANA-RESORT.jpg" alt="Ayana Komodo Resort Waecicu BeachDesain Eksklusif Resort yang Terinspirasi  dari Komodo" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb" data-noaft="1" style="width: 213px; height: 142px; margin: 0px;">
+        </div>
+      </div>
+      </div>
+
+		<div class="container">
+				<hr style="width: 87%; margin-left: 70px;">
+				<p style="margin-left: 75px; font-size: 20px; color: grey; font-family: poppins;">Room Detail</p>
+				<p style="margin-left: 75px; color: grey; font-family: poppins;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+
+			<br/>
+		<div class="container">
+			<footer class="text-center text-lg-start text-muted">
+    <div class="container text-center text-md-start mt-5" style="background-color: #eee; width: 87%; font-family: poppins;">
+    	<br/>
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase mb-4">
+            Ganjil
+          </h6>
+          <p>NIM   : 21101031</p>
+          <p>Nama  : Emilianus Ray Fernando</p>
+          <p>Kelas : A</p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase mb-4">
+            More Info</h6>
+      	  <p>How to works</p>
+      	  <p>About Us</p>
+      	  <p>Decline Rules</p>
+      	  <p>Term & Condition</p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase mb-4">
+            Customer Care
+          </h6>
+          <p>FAQ</p>
+          <p>Term of use</p>
+          <p>Privacy Policy</p>
+          <p>Discount System</p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase mb-4">
+            Follow Us
+          </h6>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-twitter"></i>
+        </div>
+      </div>
+    </div>
+</footer>
+		</div>
+</body>
+</html>
